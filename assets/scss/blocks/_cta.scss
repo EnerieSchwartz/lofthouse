@@ -1,0 +1,32 @@
+.cta {
+  padding: 180px 0;
+
+  background: linear-gradient(
+      180deg,
+      $dark 10.42%,
+      rgba(36, 43, 51, 0) 50.52%,
+      $dark 90.1%
+    ),
+    linear-gradient(0deg, rgba(36, 43, 51, 0.9), rgba(36, 43, 51, 0.9)),
+    url("./../img/cta/cta-bg.jpg"), #c4c4c4;
+}
+
+.cta__title {
+  margin-bottom: 17px;
+}
+
+.cta__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  // display: flex;
+  // flex: 1 1 1;
+}
+
+.cta__text__container {
+  line-height: calc(24 / 16);
+  margin-top: -1em;
+  p + p {
+    margin-top: 1em;
+  }
+}
